@@ -58,6 +58,12 @@ public class SignInPageTest extends TestBase {
         signInPage.clickOnLoginBtn();
         String alertMsg = signInPage.checkAlertMsg();
         Assert.assertEquals(alertMsg, "You are logged in", "Checking for valid alert message.");
+        
+        //This is a new comment
+        
+        
+        
+        
     }
 
     @AfterMethod
