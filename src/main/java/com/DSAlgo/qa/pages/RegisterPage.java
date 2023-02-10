@@ -32,7 +32,8 @@ public class RegisterPage extends TestBase {
     //Actions
     public String getValidationMessage(String fieldNm) {
 
-        // This element is not visible by default when page loads. So PageFactory can't initialize it. (Line #28). That's why we need to find when we know it should be available for driver.
+        // This element is not visible by default when page loads. So PageFactory can't initialize it. (Line #28).
+        // That's why we need to find when we know it should be available for driver.
         String UserNameEmptyMsg = driver.findElement(By.name(fieldNm)).getAttribute("validationMessage");
         return UserNameEmptyMsg;
 

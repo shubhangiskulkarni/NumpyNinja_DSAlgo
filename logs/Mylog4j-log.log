@@ -2131,3 +2131,18 @@
 [INFO ] 2023-01-27 19:23:11.934 [main] Loggerload - The error message from Register Page is: Please fill out this field.
 [INFO ] 2023-01-27 19:23:11.935 [main] Loggerload - Executing test case to validate error message on username field
 [INFO ] 2023-01-27 19:23:12.391 [main] Loggerload - The error message from Register Page is: password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-02-01 18:47:20.459 [main] Loggerload - Executing test to validate Get Started Button click.
+[INFO ] 2023-02-01 18:47:21.245 [main] Loggerload - Executing test to validate Home Page...
+[INFO ] 2023-02-01 18:47:21.264 [main] Loggerload - Title of the home page is: NumpyNinja
+[INFO ] 2023-02-01 18:47:27.214 [main] Loggerload - Executing test to validate if user landed on Home Page.
+[INFO ] 2023-02-01 18:47:33.281 [main] Loggerload - Executing test to validate Register Link click.
+[INFO ] 2023-02-01 18:47:38.535 [main] Loggerload - Executing test to validate Login Link click.
+[INFO ] 2023-02-01 18:47:46.641 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2023-02-01 18:47:46.648 [main] Loggerload - Executing test case to validate error message on username field
+[INFO ] 2023-02-01 18:47:46.796 [main] Loggerload - The error message from Register Page is: Please fill out this field.
+[INFO ] 2023-02-01 18:47:46.797 [main] Loggerload - Executing test case to validate error message on username field
+[INFO ] 2023-02-01 18:47:46.917 [main] Loggerload - The error message from Register Page is: Please fill out this field.
+[INFO ] 2023-02-01 18:47:46.918 [main] Loggerload - Executing test case to validate error message on username field
+[INFO ] 2023-02-01 18:47:47.098 [main] Loggerload - The error message from Register Page is: Please fill out this field.
+[INFO ] 2023-02-01 18:47:47.099 [main] Loggerload - Executing test case to validate error message on username field
+[INFO ] 2023-02-01 18:47:47.562 [main] Loggerload - The error message from Register Page is: password_mismatch:The two password fields didn’t match.
