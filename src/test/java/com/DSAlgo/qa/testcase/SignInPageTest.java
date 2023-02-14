@@ -74,6 +74,15 @@ public class SignInPageTest extends TestBase {
     }
 
 
+    @Test
+    public void validateGitHub() {
+    	
+    	//Comment from new test case...
+    	
+    	
+    }
+    
+    
     @AfterMethod
     public void tearDown() {
         driver.quit();
