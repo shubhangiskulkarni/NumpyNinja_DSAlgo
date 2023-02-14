@@ -58,13 +58,21 @@ public class SignInPageTest extends TestBase {
         signInPage.clickOnLoginBtn();
         String alertMsg = signInPage.checkAlertMsg();
         Assert.assertEquals(alertMsg, "You are logged in", "Checking for valid alert message.");
-        
-        //This is a new comment
-        
-        //one more new comment 
-        
-        
+
     }
+
+    @Test(priority = 3)
+    public void validateUserNmDisplayed() {
+        Loggerload.info("Executing test case to validate user name display.");
+        signInPage.enterUserName("shubhangi");
+        signInPage.enterPwd("DSAlgoA2S2");
+        signInPage.clickOnLoginBtn();
+        String userNmDisplay = signInPage.isLoginNmDisplayed();
+        Assert.assertEquals(userNmDisplay, "Shubhangi");
+
+
+    }
+
 
     @AfterMethod
     public void tearDown() {

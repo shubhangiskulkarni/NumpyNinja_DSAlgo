@@ -2146,3 +2146,5 @@
 [INFO ] 2023-02-01 18:47:47.098 [main] Loggerload - The error message from Register Page is: Please fill out this field.
 [INFO ] 2023-02-01 18:47:47.099 [main] Loggerload - Executing test case to validate error message on username field
 [INFO ] 2023-02-01 18:47:47.562 [main] Loggerload - The error message from Register Page is: password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-02-13 18:38:48.074 [main] Loggerload - Executing test case to validate user name display.
+[INFO ] 2023-02-13 18:40:24.896 [main] Loggerload - Executing test case to validate user name display.

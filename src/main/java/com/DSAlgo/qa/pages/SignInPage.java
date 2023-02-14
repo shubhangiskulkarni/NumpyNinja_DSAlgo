@@ -25,6 +25,12 @@ public class SignInPage extends TestBase {
     WebElement loggedInAlert;
 
 
+    //ul/a[2]
+    //*[@id="navbarCollapse"]/div[2]/ul/a[2]
+    @FindBy(xpath = " //*[@id=\"navbarCollapse\"]/div[2]/ul/a[2]")
+    WebElement userNmDisplayed;
+
+
     public SignInPage() {
 
         PageFactory.initElements(driver, this);
@@ -65,5 +71,23 @@ public class SignInPage extends TestBase {
 
     }
 
+    public String isLoginNmDisplayed() {
+
+        String loggedInUserName;
+
+        if (userNmDisplayed.isDisplayed()) {
+
+            loggedInUserName = userNmDisplayed.getText();
+
+        } else {
+
+            return "Control is not displayed.";
+
+        }
+
+        return loggedInUserName;
+
+
+    }
 
 }
